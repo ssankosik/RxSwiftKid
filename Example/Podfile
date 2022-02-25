@@ -1,0 +1,20 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'RxSwiftKid_Example' do
+  pod 'RxSwiftKid', :path => '../'
+
+  pod 'RxSwiftExt', "~> 6.0"
+
+  target 'RxSwiftKid_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
+
+# Installing RxCocoa (6.2.0)
+# Installing RxRelay (6.2.0)
+# Installing RxSwift (6.2.0)
+# Installing RxSwiftExt (6.0.1)
