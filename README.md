@@ -74,7 +74,7 @@ displayed
 
 **HashableActivityIndicator**     
 Sequence computation monitoring.
-```
+```swift
 enum Activities: Int, CaseIterable {
   case skeleton
   case fullScreen
