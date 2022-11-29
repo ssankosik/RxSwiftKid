@@ -78,7 +78,6 @@ Sequence computation monitoring.
 enum Activities: Int, CaseIterable {
   case skeleton
   case fullScreen
-  case loadMore
 }
 
 let activityIndicator = HashableActivityIndicator<Activities>()
