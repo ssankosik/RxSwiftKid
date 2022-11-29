@@ -9,8 +9,6 @@ target 'RxSwiftKid_Example' do
 
   target 'RxSwiftKid_Tests' do
     inherit! :search_paths
-
-    
   end
 end
 

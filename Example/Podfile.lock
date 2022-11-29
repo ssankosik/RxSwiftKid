@@ -13,8 +13,8 @@ PODS:
   - RxSwiftExt/RxCocoa (6.0.1):
     - RxCocoa (~> 6.0)
     - RxSwiftExt/Core
-  - RxSwiftKid (0.1.0):
-    - RxSwiftExt
+  - RxSwiftKid (1.0.0):
+    - RxSwiftExt (~> 6.0.1)
 
 DEPENDENCIES:
   - RxSwiftExt (~> 6.0)
@@ -36,7 +36,7 @@ SPEC CHECKSUMS:
   RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
   RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
   RxSwiftExt: d61c4b9b06e0a448041b1c659e0f1b5c5a035afc
-  RxSwiftKid: 19916c9d8076197c7dce39eb606f897af0b01079
+  RxSwiftKid: 2ea585be31c7c52e41a10dea2d14b93eb2ba2f9a
 
 PODFILE CHECKSUM: 7b4145d162aacafcbdd56da95234c9694a8dfb78
 

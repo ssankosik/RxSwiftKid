@@ -318,3 +318,27 @@ class TestBoolState {
 
     func display(_ value: Element) {}
 }
+
+// MARK: - HashableActivityIndicator
+class TestHashableActivityIndicator {
+    private typealias `Self` = TestBoolState
+    typealias Element = Bool
+
+    private var bag: DisposeBag = .init()
+    
+    enum Activities: Int, CaseIterable {
+        case skeleton
+        case fullScreen
+        case pullToRefresh
+    }
+    
+    let activityIndicator: HashableActivityIndicator<Activities> = .init()
+
+    init() {
+        Observable
+            .just()
+            .trackActivity(activityIndicator, type: .skeleton)
+            .subscribe()
+            .disposed(by: bag)
+    }
+}
