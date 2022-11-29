@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RxSwiftKid'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'RxSwift operators not found in the core distribtion'
   s.description      = <<-DESC
   A collection of operators for RxSwift adding commonly requested operations not found in the core distribution
